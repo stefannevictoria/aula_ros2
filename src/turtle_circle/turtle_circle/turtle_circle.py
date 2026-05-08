@@ -1,3 +1,4 @@
+from geometry_msgs import msg
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
@@ -5,14 +6,19 @@ from geometry_msgs.msg import Twist
 class TurtleCircle(Node):
     def __init__(self):
         super().__init__('turtle_circle')
+        
+        # Declara os parâmetros do nó com valores padrão
+        self.declare_parameter('linear_speed', 2.0)
+        self.declare_parameter('angular_speed', 2.0)
         self.publisher_ = self.create_publisher(Twist, 'turtle1/cmd_vel', 10) # A fila é de no máximo 10 mensagens
         timer_period = 0.1  # setando o período do timer para 0.1 segundos (10 Hz)
         self.timer = self.create_timer(timer_period, self.timer_callback) # Cria um timer que chama a função timer_callback a cada 0.1 segundos para publicar mensagens de velocidade e fazer a tartaruga se mover em um círculo
 
     def timer_callback(self):
         msg = Twist() # Cria uma mensagem do tipo Twist e depois seta a velocidade linear e angular para fazer a tartaruga se mover em um círculo
-        msg.linear.x = 2.0  # Seta a velocidade linear para 2.0 m/s
-        msg.angular.z = 2.0  # Seta a velocidade angular para 2.0 rad/s
+        # Pega os valores dos parâmetros configurados no nó
+        msg.linear.x = self.get_parameter('linear_speed').value
+        msg.angular.z = self.get_parameter('angular_speed').value
         self.publisher_.publish(msg) # Publica a mensagem no tópico 'turtle1/cmd_vel' para controlar a tartaruga (pode setar parâmetros para o nó)
 
 

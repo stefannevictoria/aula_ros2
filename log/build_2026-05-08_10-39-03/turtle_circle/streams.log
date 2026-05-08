@@ -1,0 +1,25 @@
+[1.177s] Invoking command in '/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/src/turtle_circle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/install/turtle_circle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_circle build --build-base /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/build install --record /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/install.log --single-version-externally-managed install_data
+[1.465s] running egg_info
+[1.482s] writing ../../build/turtle_circle/turtle_circle.egg-info/PKG-INFO
+[1.482s] writing dependency_links to ../../build/turtle_circle/turtle_circle.egg-info/dependency_links.txt
+[1.482s] writing entry points to ../../build/turtle_circle/turtle_circle.egg-info/entry_points.txt
+[1.483s] writing requirements to ../../build/turtle_circle/turtle_circle.egg-info/requires.txt
+[1.483s] writing top-level names to ../../build/turtle_circle/turtle_circle.egg-info/top_level.txt
+[1.519s] reading manifest file '../../build/turtle_circle/turtle_circle.egg-info/SOURCES.txt'
+[1.520s] adding license file 'LICENSE'
+[1.521s] writing manifest file '../../build/turtle_circle/turtle_circle.egg-info/SOURCES.txt'
+[1.521s] running build
+[1.521s] running build_py
+[1.522s] copying turtle_circle/turtle_circle.py -> /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/build/lib/turtle_circle
+[1.522s] running install
+[1.530s] running install_lib
+[1.556s] copying /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/build/lib/turtle_circle/turtle_circle.py -> /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/install/turtle_circle/lib/python3.12/site-packages/turtle_circle
+[1.557s] byte-compiling /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/install/turtle_circle/lib/python3.12/site-packages/turtle_circle/turtle_circle.py to turtle_circle.cpython-312.pyc
+[1.558s] running install_data
+[1.558s] running install_egg_info
+[1.577s] removing '/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/install/turtle_circle/lib/python3.12/site-packages/turtle_circle-0.0.0-py3.12.egg-info' (and everything under it)
+[1.578s] Copying ../../build/turtle_circle/turtle_circle.egg-info to /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/install/turtle_circle/lib/python3.12/site-packages/turtle_circle-0.0.0-py3.12.egg-info
+[1.578s] running install_scripts
+[1.712s] Installing circle_node script to /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/install/turtle_circle/lib/turtle_circle
+[1.712s] writing list of installed files to '/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/install.log'
+[1.756s] Invoked command in '/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/src/turtle_circle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/install/turtle_circle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_circle build --build-base /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/build install --record /home/inteli/Documentos/codigos/2026/M06-Inteli2026/aulas/aula_ros2/build/turtle_circle/install.log --single-version-externally-managed install_data
